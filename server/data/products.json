@@ -1,0 +1,58 @@
+[
+  {
+    "id": 0,
+    "name": "Strawberry",
+    "description": "Fresh and very tasty strawberries",
+    "prise": 7,
+    "img": "/productImages/strawberry.png"
+  },
+  {
+    "id": 1,
+    "name": "Blueberry",
+    "description": "Fresh and very tasty blueberries",
+    "prise": 9,
+    "img": "/productImages/blueberry.png"
+  },
+  {
+    "id": 2,
+    "name": "Blackberry",
+    "description": "Fresh and very tasty blackberries",
+    "prise": 10,
+    "img": "/productImages/blackberry.png"
+  },
+  {
+    "id": 3,
+    "name": "Raspberry",
+    "description": "Fresh and very tasty raspberries",
+    "prise": 10,
+    "img": "/productImages/raspberry.png"
+  },
+  {
+    "id": 4,
+    "name": "Gooseberry",
+    "description": "Fresh and very tasty gooseberries",
+    "prise": 15,
+    "img": "/productImages/gooseberry.png"
+  },
+  {
+    "id": 5,
+    "name": "Cranberry",
+    "description": "Fresh and very tasty cranberries",
+    "prise": 14,
+    "img": "/productImages/cranberry.png"
+  },
+  {
+    "id": 6,
+    "name": "Mulberry",
+    "description": "Fresh and very tasty mulberries",
+    "prise": 7,
+    "img": "/productImages/mulberry.png"
+  },
+  {
+    "id": 7,
+    "name": "Lingonberry",
+    "description": "Fresh and very tasty lingonberries",
+    "prise": 17,
+    "img": "/productImages/lingonberry.png"
+  }
+]
