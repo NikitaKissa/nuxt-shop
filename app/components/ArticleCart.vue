@@ -19,11 +19,14 @@ function changeAmount(event){
   cartStore.update(props.id , Number(event.target.value));
 }
 
+function navigate(){
+  useRouter().push(`/product/${props.id}`);
+}
 </script>
 
 <template>
   <div class="article">
-    <img :src=img class="h-12" :alt=name>
+    <img :src=img class="h-12" :alt=name @click="navigate">
     <h4 class="m-0">{{name}}</h4>
     <p>{{prise}}$</p>
     <input class="w-8 text-center" type="number" min="0" step="1" :value="amount" @change="changeAmount"/>

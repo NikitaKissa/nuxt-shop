@@ -14,6 +14,9 @@ export const useCartStore = defineStore("cart", {
         // expirationDate: ,
 
     }),
+    getters: {
+        //totalPrise: (state) => state.items.reduce((sum, item) => sum + item.price * item.amount, 0),
+    },
     actions: {
         add(product, amount) {
             const found = this.items.find(element => element.id === product.id)

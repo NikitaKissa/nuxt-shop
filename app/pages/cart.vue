@@ -13,7 +13,7 @@
                  :amount="item.amount"/>
   </div>
   <h4 v-else class="text-center">Currently your cart is empty <NuxtLink to="/" class="text-center">click to continue browsing</NuxtLink></h4>
-
+<!--  <p>Total prise: {{cartStore.totalPrise}}$</p>-->
 </template>
 
 <style scoped>
