@@ -11,9 +11,10 @@
                  :name="item.name"
                  :prise="item.prise"
                  :amount="item.amount"/>
+      <p class="text-right"><b>Total prise: {{cartStore.totalPrise}}$</b></p>
+    <button class="ml-auto">Place order</button>
   </div>
   <h4 v-else class="text-center">Currently your cart is empty <NuxtLink to="/" class="text-center">click to continue browsing</NuxtLink></h4>
-<!--  <p>Total prise: {{cartStore.totalPrise}}$</p>-->
 </template>
 
 <style scoped>
